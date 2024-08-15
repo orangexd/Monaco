@@ -121,10 +121,10 @@
 				inherit: true,
 				rules: [
 					{ token: '', foreground: '#D0D0E0' },
-					{ token: 'variable.language.self', foreground: '#F77F9F' },
-					{ token: 'variable.parameter.variadic', foreground: '#F77F9F' },
+					{ token: 'variable.language.self', foreground: '#5263FF' },
+					{ token: 'variable.parameter.variadic', foreground: '#5263FF' },
 					{ token: 'variable.parameter.function', foreground: '#A68BDF' },
-					{ token: 'variable.other.constant', foreground: '#F77F9F' },
+					{ token: 'variable.other.constant', foreground: '#5263FF' },
 					{ token: 'variable.property', foreground: '#44A2F9' },
 					{ token: 'variable.object.property', foreground: '#3DD9C3' },
 			
@@ -151,7 +151,7 @@
 					{ token: 'comment.highlight.name', foreground: '#55C6FF', fontStyle: 'italic' },
 					{ token: 'comment.delimiter.modifier', foreground: '#8A9CFF', fontStyle: 'italic' },
 					{ token: 'comment.highlight.modifier', foreground: '#44A2F9', fontStyle: 'italic' },
-					{ token: 'comment.highlight.descriptor', foreground: '#F77F9F', fontStyle: 'italic' },
+					{ token: 'comment.highlight.descriptor', foreground: '#5263FF', fontStyle: 'italic' },
 			
 					{ token: 'delimiter.longstring', foreground: '#55C6FF' },
 					{ token: 'delimiter.bracket', foreground: '#B2B6BF' },
@@ -171,9 +171,9 @@
 					{ token: 'punctuation.definition.parameters', foreground: '#8A9CFF' },
 					{ token: 'punctuation.definition.typeparameters', foreground: '#55C6FF' },
 			
-					{ token: 'constant.language', foreground: '#F77F9F' },
-					{ token: 'number', foreground: '#F77F9F' },
-					{ token: 'constants', foreground: '#F77F9F' },
+					{ token: 'constant.language', foreground: '#5263FF' },
+					{ token: 'number', foreground: '#5263FF' },
+					{ token: 'constants', foreground: '#5263FF' },
 			
 					{ token: 'support.function', foreground: '#34B1E2' },
 					{ token: 'support.function.library', foreground: '#34B1E2' },
@@ -472,6 +472,7 @@
 				setText("");
 				editor.trigger('keyboard', 'type', { text: text });
 			}
+
 		});
 	</script>
 </body>
